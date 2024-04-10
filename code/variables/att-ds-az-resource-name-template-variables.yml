@@ -33,7 +33,8 @@ variables:
 
 ##  Azure Resource -  Publisher
 - name: publisherResourceGroupName
-  value: "c$(lcAppName)-$(environment)-publisher-$(locationPublisherRG)-rg-01"
+#  value: "c$(lcAppName)-$(environment)-publisher-$(locationPublisherRG)-rg-01"
+  value: rg-precert-enea-aosm
 - name: publisherName
   value:  "c$(lcAppName)-$(environment)-publisher-$(majorSoftwareRelease)-01"
 
